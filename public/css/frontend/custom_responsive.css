@@ -1,0 +1,369 @@
+@media only screen and (max-width: 1300px) {
+	
+body{ overflow-x:hidden; }
+
+}
+
+@media only screen and (max-width: 1200px) {
+	
+.container{ width:97%;  }
+
+/* project listing css */
+.listing_ul ul{ float:right; }
+.listing_ul span{ float:left; }
+
+}
+
+@media only screen and (max-width: 1152px) {
+
+/* project listing css */
+.Project-listing .viewAll{ padding:5px 0px; text-align:center; }
+.Project-listing .viewAll:after {right: 16px; top: 35%; }
+
+}
+
+@media only screen and (max-width: 1124px) {
+
+/* suscribe css */
+.sbscrpTxt { font-size: 20px; }
+
+/* common css*/
+.MidButton, .MidgrayButton { font-size: 17px;  padding: 10px 15px 8px; }
+.midGrayButton{ font-size: 17px;  padding: 8px 15px 8px; }	
+.reminder_button{ padding: 10px 15px; line-height: 20px; }
+.reminder_button img { width: 16px; }
+
+/* project listing css */
+.Project-listing .viewAll:after {right: 5px; top: 35%; }
+
+}
+
+@media only screen and (max-width: 1024px) {
+	
+}
+
+@media only screen and (max-width: 1023px) {
+	
+/* project listing css */	
+.Project-listing .KnbtxtAreaUl li { line-height: 19px; width: 100%; }
+.Project-listing .viewAll:after { display:none; }
+.Project-listing .mstPoprlBx{ margin-bottom:50px; width:44%; }
+.Project-listing .mstPoprlBx:nth-child(4n+1), 
+.Project-listing .mstPoprlBx:nth-child(4n+3),
+.Project-listing .mstPoprlBx:nth-child(4n+2) { margin: 0px 3% 50px 3%; }
+.list_devdr{ display:none; }
+.Project-listing .KnbtxtAreaUl li { width: 50%; }
+
+/* dashboard css */
+.file-upload-button { font-size: 13px; }
+
+}
+
+
+@media only screen and (max-width: 990px) {
+	
+/* common css */
+.MidButton, .midGrayButton{ min-width:220px; }
+.reminder_button{ margin-left:0px; border-color:#adadad; margin-top:20px; }
+.viewAll{ padding: 5px 0px; font-size: 14px; text-align:center; }
+.viewAll:after{ display:none; }
+h3 .viewAll{ width:20%; margin-top:-20px; }
+
+/* home category css */
+.progress_full_area .row, .recent_project .row, .mostpopular .row, .newsLtrBxArea .row, .footer_area .row{ padding:0px 15px; }
+.progress_full_area{ background-attachment:scroll; }
+h3 span{ width:77%; display:inline-block; }
+.grayBx_area { padding: 30px 0;}
+.mid_catview{ border-left:none; border-right:none; padding:20px 0px 40px 0px; }
+.catBxLftPad{ padding-left: 0px; }
+.catBxRgtPad { padding-right: 0px; }
+.ctgryLst ul{ background:#fff; float:left; width:100%; }
+.ctgryLst li { margin: 0px; border-left:#d2d2d2 solid 4px; width: 100%; border-bottom:#e4e4e4 solid 1px; }
+.ctgryLst li a { color: #999999; font-size: 18px; padding: 12px 8px 12px 7px; }
+.knob_rgt p { font-size: 21px;line-height: 35px; }
+.catRgtBx .orenge_btn{ float:right; }
+.knob_rgt { float: right; width: 66%; }
+
+
+/* project detail css */
+.detail-social-area{ border-left:none; padding-left:0px; width:100%; padding-top:20px; }
+.customButton { margin-right: 30px; }
+
+/* suscribe css */
+.sbscrpTxt { font-size: 18px; }
+
+/* category mobile css */
+.mobile_catMenu{ }
+.mobile_catMenu-1 h5, .mobile_catMenu-2 h5{ background:#e6801d; padding:10px; color:#fff; position:relative; cursor:pointer; }
+.mobile_catMenu-1 h5.HdArrow, .mobile_catMenu-2 h5.HdArrow{ position:relative; }	
+.mobile_catMenu-1 h5.HdArrow:after, .mobile_catMenu-2 h5.HdArrow:after{ content:"+"; position:absolute; right:10px; top:10px; padding:10px;font-size: 40px; height: 25px; line-height: 0;right: 15px;top: 10px;width: 30px;}
+.mobile_catMenu-1 h5.HdArrow2, .mobile_catMenu-2 h5.HdArrow2{ position:relative; }
+.mobile_catMenu-1 h5.HdArrow2:after, .mobile_catMenu-2 h5.HdArrow2:after{content:"-"; position:absolute; right:10px; top:10px; padding:10px;font-size: 40px; height: 25px; line-height: 0;right: 15px;top: 6px;width: 30px;}
+.mobile_catMenu-1 .ctgryLst, .mobile_catMenu-2 .ctgryLst{ height:0px; overflow:hidden; } 
+.mobile_catMenu-1 .ctgryLstblock, .mobile_catMenu-2 .ctgryLstblock{ height:auto; }   
+}
+    
+
+@media only screen and (max-width: 900px) {
+	
+/* header css */
+.log_link li a { font-size: 16px; margin-top: 17px; padding: 0 8px 5px; }
+
+/* home category css */
+.KnbtxtAreaUl li { width: 100%; }
+.mstPoprlBx .mstPoprlImgBx, .mstPoprlBx .mstPoprlImgBx img { min-height: 138px; }
+
+/* project detail css */
+.PrjDtlArea { padding: 0 0 0 20px; }
+.PrjDtlArea .KnbtxtAreaUl li{ width:100%; }
+.PrjDtlArea .KnbtxtAreaUl li span{ width:auto; margin-right:20px; }
+.customWidth{ width:100%; }
+
+/* project listing css */
+.listing_ul { min-width: 100%;}
+.listing_ul ul { float: left; }
+
+/* dashboard css */
+.file-upload-button{ width:30%; }
+.file-upload-input{ width:70%; }
+
+/* project step css */
+.rgstrtn_start_project_step .formArea { padding: 0 10%; }
+
+}
+
+@media only screen and (max-width: 820px) {
+
+/* menu css */
+#cssmenu.small-screen #menu-button { color: #fff; font-size: 22px; padding: 11px; }
+#cssmenu > ul > li:first-child > a { padding-left: 17px; }	
+#cssmenu.small-screen #menu-button::before { background: #fff; height: 4px; right: 17px; top: 13px; width: 29px; }
+#cssmenu.small-screen #menu-button::after { border-bottom: 4px solid #fff; border-top: 4px solid #fff;
+ height: 12px; right: 17px; top: 21px;width: 29px; }
+#cssmenu.small-screen #menu-button.menu-opened::before { background: #ffffff; top: 23px;
+ width: 20px; }
+#cssmenu.small-screen #menu-button.menu-opened::after { background: #ffffff; height: 4px;
+ top: 23px; width: 20px; }
+	
+}
+
+@media only screen and (max-width: 850px) {
+
+/* SLIDER CSS */ 
+.responsive-slider .slides ul li .slide-body .caption.sub{ display:none !important; }	
+.responsive-slider .slides ul li .slide-body .caption.sub2{ top:90% !important; }
+	
+	
+/* project detail css */
+.customButton { margin-right: 15px; }	
+	
+/* subscripbe css*/
+.sbscrpTxt{ padding:0px; font-size: 21px; line-height: 25px; }
+
+/* project listing css */
+.Project-listing .col-lg-2 { width: 100%; }
+.Project-listing .col-lg-10 { width: 100%; }	
+
+/* footer css */
+.footer_LftPrt{ width:30%; }
+.footer_RgtPrt { width: 40%; }
+	
+}
+
+@media only screen and (max-width: 780px) {
+
+/* home page css */	
+.catviewDtetlArea .catLftBx { width: 100%; }
+.catviewDtetlArea .catRgtBx{ width:100%; }
+.knob_lft { width: 50%; }
+.knob_rgt { width: 50%; padding:30px 0px 0px 0px; }
+.knob_rgt p{ line-height:40px; }
+.catRgtBx .orenge_btn{ padding: 6px 0%; text-align:center; width:45%; margin-top:0px; }
+}
+
+
+@media only screen and (max-width: 767px) {
+	
+/* header css */
+.logo { text-align: center; margin-bottom:20px; }
+.log_link{ float:left; }
+.menu_area{ background:transparent; }
+#cssmenu{ margin-bottom:10px; }
+/* ended */	
+
+/* slider css */
+.slider_area{ margin-top:20px; }
+
+.paddindLftNONE{ padding-left:15px; }	
+.detail-social-area { padding-top: 0px; width: 50%; }
+.PrjDtlArea .KnbtxtAreaUl { width: 50%; padding:70px 0px 0px 20px; }
+.detailBoxKnobArea{ margin-top:30px; }
+.reminder_button{ margin-left:20px; }
+.PrjDtlArea .MidButton{ margin-top:20px; }
+.newsSrch0padding{ padding-left:0px; }
+.sbscrpTxt{ margin-bottom:20px; }
+.project-Detail_tabArea .r-tabs .r-tabs-accordion-title .r-tabs-anchor{ background:#999999; color:#fff; }
+.project-Detail_tabArea .r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor { background-color: #1699c2 !important; color: #fff !important; }
+.project-Detail_tabArea .r-tabs .r-tabs-panel{ padding:20px 20px 20px 20px; border: 1px solid #cccccc; margin-bottom:20px; }
+.project-detail-rgt-reward{ margin-top:20px; }
+
+/* dashboard css */
+.file-upload-button { width: 20%; }
+.file-upload-input { width: 79%; }
+
+/* footer css start */
+.footer_RgtPrt { width: 100%; margin-bottom:40px; }
+/* footer css ended */
+
+}
+
+@media only screen and (max-width: 766px) {
+	
+/* slider css */
+.responsive-slider .slides ul li .slide-body .caption.header h2{ font-size:29px !important; }	
+
+/* home page css */	
+.whiteBx_area { padding: 30px 0; }
+.mstPoprlBxArea { margin: 30px 0 0; }
+.mostpopular, .recent_project{ text-align:center; }
+h3 .viewAll{ clear:both; float:none; display:inline-block; margin-top:20px; width:200px; }
+h3 span{ width:100%; display:inline-block; }
+.mostpopular .mstPoprlBx{ width:70%; float:none; display:inline-block; margin:0px 0px 30px 0px; }	
+.mostpopular .mstPoprlBx:nth-child(1), .mstPoprlBx:nth-child(3){ margin:0px 0px 30px 0px; }
+.mostpopular .KnbtxtAreaUl li { font-size: 16px; line-height: 40px; text-align: left; width: 50%; }
+
+.recent_project .mstPoprlBx{ width:70%; float:none; display:inline-block; margin:0px 0px 30px 0px; }	
+.recent_project .mstPoprlBx:nth-child(1), .mstPoprlBx:nth-child(3){ margin:0px 0px 30px 0px; }
+.recent_project .KnbtxtAreaUl li { font-size: 16px; line-height: 40px; text-align: left; width: 50%; }
+
+/* signup css start */
+.social_button_area{ padding:0px 20%; }
+.social_button_area li { width: 100%; }
+.social_button_area li:nth-child(even){ width:100%; }
+/* signup css ended */
+
+	
+}
+
+@media only screen and (max-width: 600px) {
+
+/* home page css */
+.mostpopular .KnbtxtAreaUl li, .recent_project .KnbtxtAreaUl li { line-height: 30px; width: 100%; }
+.catRgtBx .orenge_btn:after{ display:none; }
+	
+}
+
+
+@media only screen and (max-width: 580px) {
+	
+/* project detail css start */
+.detail-social-area{ width:50%; margin-top:0px; }
+.PrjDtlArea .KnbtxtAreaUl{ width:100%; padding-left:0px; }
+.PrjDtlArea .KnbtxtAreaUl li { width: 50%; text-align:center; }
+.PrjDtlArea .KnbtxtAreaUl li span{ float:none; }
+.PrjDtlArea { padding: 0px; text-align:center; }
+.PrjDtlArea .pull-left, .reminder_button{ float:none !important; display:inline-block; }
+.PrjDtlArea .pull-left{ margin-top: -4px; }
+.detailBoxKnobArea{ width:100%; text-align:center; }
+.detailBoxKnobArea .rngTxt {left: 34%; }
+/* project detail css ended */	
+
+/* project listing css*/
+.mstPoprlBxArea{ text-align:center; }
+.Project-listing .mstPoprlBx{ float:none; display:inline-block; width:85%; }
+
+/* footer open */
+.footer_LftPrt, .footer_MidPrt{ width:50%; }
+/* footer closed */
+	
+}
+
+@media only screen and (max-width: 500px) {
+	
+/* common css start */
+.MidButton, .midGrayButton { clear: both; min-width: 250px; margin-bottom:20px; }
+.grayBtnGap{ margin-left:0px; }
+/* common css ended */	
+
+/* home page css */
+.catviewDtetlArea{ text-align:center; }
+.knob_lft{ min-height:216px; }
+.knob_lft, .knob_rgt { width: 100%; text-align:center; }
+.catRgtBx .orenge_btn{ display:inline-block; float:none; width:200px; }
+.mostpopular .mstPoprlBx, .recent_project .mstPoprlBx { width: 90%;}
+
+/* project detail css start */
+.reminder_button{ clear:both; margin-left:0px; margin-top:0px; }
+/* project detail css ended */
+
+/* subscripbe css start */
+.newsSrchFldArea input[type="submit"] { font-size: 15px; width:40%; }
+.newsSrchFldArea input[type="text"]{ width:60%; }
+/* subscribe css ended */
+
+/* dashboard css */
+.formFldArea .HalfFld { width: 100%; }
+.formBox { padding: 10px 10px 20px; }
+
+/* login css */
+.social_login_area{ text-align:center; margin-bottom:40px; }
+.social_login_area li, .social_login_area li:nth-child(2){ width:100%; }
+.social_login_area li a{ float:none; }
+.social_login_area li span, .social_login_area li.bigOR span { padding: 3% 0px; }
+
+/* footer css start */
+.footer_social li a img{ width:30px !important; }
+/* footer css ended */
+
+/* project step css */
+.rgstrtn_start_project_step .formArea { padding: 0 0%; }
+	
+}
+
+@media only screen and (max-width: 400px) {
+	
+/* header css start */
+.header_strip .col-xs-12 { text-align:center; }
+.logo a img { width: 95% !important; }
+.header_button{ float:none; display:block; }
+.log_link { margin-right: 0; width: 100%; }
+.log_link li a { font-size: 19px; }
+/* header css ended */	
+
+/* common css start */
+.MidButton, .midGrayButton, .reminder_button, .MidgrayButton{ width:100%; min-width:100%; }
+.reminder_button{ text-align:center; }
+.reminder_button img { display: inline; float: none; }
+/* common css ended */
+
+/* newsletter css start */
+.newsSrchFldArea input[type="text"], .newsSrchFldArea input[type="submit"]{ width:100%; }
+/* newsletter css ended */
+
+/* project detail css start */
+.detailBoxKnobArea{ width:100%; }
+/* project detail css ended*/
+
+/* dashboard css */
+.file-upload-button { width: 27%; }
+.file-upload-input { width: 70%; }
+
+/* footer css start */
+.footer_LftPrt, .footer_MidPrt{ width:100%; }
+/* footer css ended */
+
+/* signup css start */
+.social_button_area{ padding:0px 10%; }
+.social_button_area li { width: 100%; }
+.social_button_area li:nth-child(even){ width:100%; }
+/* signup css ended */	
+
+/* registration start project css start  */
+.rgstrtn_start_project p{ color:#555454; font-size:25px; padding:15px 0%; line-height:36px; }
+/* registration start project css ended */
+
+/* project start step css */
+.rgstrtn_start_project_step h4 img{ display:none; }
+.step_button_area .MidButton{ margin-top:10px !important; }
+	
+}

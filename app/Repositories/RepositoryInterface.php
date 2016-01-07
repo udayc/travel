@@ -1,0 +1,1 @@
+<?php namespace App\Repositories;/** * Interface RepositoryInterface * @package Bosnadev\Repositories\Contracts */interface RepositoryInterface {    /**     * @param array $columns     * @return mixed     */  	//public function sortUserByCriteria($criteria = null);	//public function sortByCriteria($criteria = null);}
