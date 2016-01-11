@@ -11,24 +11,9 @@
 |
 */
 
-	Route::group(['namespace'=> 'Admin' , 'middleware' => 'auth'] , function(){
-	//dd("A1");
-		//Route::get('/admin/project/{filterBy}',  ['uses' =>'ProjectController@getIndex', 'as'=>'project.index'] );		
-
+	Route::group(['namespace'=> 'Admin' , 'middleware' => 'auth'] , function(){	
 		Route::controller('/admin/dashboard'	, 'DashboardController' 	); 	
-		Route::controller('/admin/user'			, 'UserController' 			);
-		Route::controller('/admin/activity'		, 'ActivityController' 		);
-		Route::controller('/admin/payments'		, 'PaymentsController' 		);
-		Route::controller('/admin/project'		, 'ProjectController'		);
-		Route::controller('/admin/category'		, 'CategoryController'		);
-		Route::controller('/admin/genre'		, 'GenreController'			);	
-		Route::controller('/admin/menu'			, 'MenuController'			);
-		Route::controller('/admin/banner'		, 'BannerController'		);
-		Route::controller('/admin/pages'		, 'PageController'			);
-		
-		Route::get('/admin/settings/{formkey}',  ['uses' =>'SettingsController@show', 'as'=>'settingsConfig'] );
-		Route::post('/admin/settings/{formkey}',  ['uses' =>'SettingsController@postshow', 'as'=>'postsettingsConfig'] );
-
+		Route::controller('/admin/agent'		, 'AgentController' 	);
 	});
 	Route::controller('home', 			'HomeController'		);
 	Route::controller('agent', 			'AgentController'		);

@@ -11,26 +11,10 @@
 		</a>
 		<ul class="sub-menu">
 			<li>
-				<a href="layouts_sidebar_closed.html">
-					<span class="title"> Sidebar Closed </span>
+				<a href="/admin/agent/list">
+					<span class="title"> List </span>
 				</a>
-			</li>
-			<li>
-				<a href="layouts_boxed_layout.html">
-					<span class="title"> Boxed Layout </span>
-				</a>
-			</li>
-			<li>
-				<a href="layouts_footer_fixed.html">
-					<span class="title"> Footer Fixed </span>
-				</a>
-			</li>
-			<li>
-				<a href="../clip-one-rtl/index.html">
-					<span class="title"> RTL Version </span>
-					<span class="badge badge-new">new</span>
-				</a>
-			</li>
+			</li>			
 		</ul>
 	</li>
 	<li>

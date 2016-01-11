@@ -14,9 +14,9 @@ class User extends Model  {
 	 */
 	protected $table = 'users';
 
- 	public function profile()
-	{
-		return $this->hasOne('App\Profile');
-	}
+ 	//public function profile()
+	//{
+	//	return $this->hasOne('App\Profile');
+	//}
 
 }
