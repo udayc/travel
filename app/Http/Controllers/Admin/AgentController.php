@@ -46,8 +46,10 @@ class AgentController extends Controller {
 	 */
 	public function getList( $criteria = Null )
 	{		
-		//$user_list = User::where('type',2)->where('status',1)->orderBy('created_at','asc')->paginate(2)->get();
-		$user_list = User::where('type',2)->where('status',1)->orderBy('created_at','asc')->paginate($this->show_per_page);
+		$user_list = User::where('type',2)
+					->where('status',1)
+					->orderBy('created_at','asc')
+					->paginate($this->show_per_page);
 		//echo "<pre>";
 	//	print_r($user_list->toArray());
 		//exit;

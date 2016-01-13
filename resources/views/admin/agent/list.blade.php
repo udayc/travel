@@ -37,29 +37,7 @@
 			</div>
 		</div>
 		<!-- end: PAGE HEADER -->
-		<!-- start: PAGE CONTENT -->
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="core-box">
-					<div class="heading">
-						<i class="clip-user-4 circle-icon circle-green"></i>
-						<h2>Manage Users</h2>
-					</div>
-					<div class="content">
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-					</div>
-					<a class="view-more" href="#">
-						View More <i class="clip-arrow-right-2"></i>
-					</a>
-				</div>
-			</div>			
-		</div>
-		<?php
-			//echo "<pre>";
-			//print_r($user_list);
-			//echo "</pre>";
-			//exit;
-		?>
+		<!-- start: PAGE CONTENT -->		
 		<div class="row">
 			<div class="col-md-12">
 				<!-- start: DYNAMIC TABLE PANEL -->
@@ -94,6 +72,7 @@
 								</tr>
 							</thead>
 							<tbody>
+								@if(count($user_list) > 0)
 								@foreach($user_list as $user)
 								<tr>
 									<td>{{ $user->name }}</td>
@@ -104,6 +83,11 @@
 								<tr>
 									<td colspan="4"><?php echo $user_list->render(); ?></td>
 								</tr>
+								@else
+									<tr>
+										<td colspan="4">No Data Found</td>
+									</tr>
+								@endif
 							</tbody>
 						</table>
 					</div>
