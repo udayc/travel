@@ -28,12 +28,13 @@ use Illuminate\Http\Response;
 class AgentController extends Controller {
 
 	protected $project_repo;
-
+	protected $show_per_page = 1;
 	
 	
 	public function __construct(ProjectRepository $project_repo)
 	{
 		$this->project_repo = $project_repo;
+		
 	}
 
 
@@ -44,13 +45,13 @@ class AgentController extends Controller {
 	 * @return Response
 	 */
 	public function getList( $criteria = Null )
-	{
-		//dd("A");
-		$user_list = User::where('type',2)->where('status',1)->orderBy('created_at','asc');
+	{		
+		//$user_list = User::where('type',2)->where('status',1)->orderBy('created_at','asc')->paginate(2)->get();
+		$user_list = User::where('type',2)->where('status',1)->orderBy('created_at','asc')->paginate($this->show_per_page);
 		//echo "<pre>";
-		//print_r($user_list);
-	//	echo "</pre>";
-	//	exit;
+	//	print_r($user_list->toArray());
+		//exit;
+		//echo "</pre>";
 		return view('admin.agent.list',['user_list' => $user_list]);
 	}
 	public function getIndex( $criteria = Null )
