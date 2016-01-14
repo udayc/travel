@@ -24,7 +24,7 @@
 		</a>
 		<ul class="sub-menu">
 			<li>
-				<a href="ui_elements.html">
+				<a href="/admin/message/list">
 					<span class="title"> Elements </span>
 				</a>
 			</li>
@@ -73,13 +73,13 @@
 	</li>
 	<li>
 		<a href="javascript:void(0)"><i class="clip-grid-6"></i>
-			<span class="title"> Tables </span><i class="icon-arrow"></i>
+			<span class="title"> Destination </span><i class="icon-arrow"></i>
 			<span class="selected"></span>
 		</a>
 		<ul class="sub-menu">
 			<li>
-				<a href="table_static.html">
-					<span class="title">Static Tables</span>
+				<a href="/admin/destination/list">
+					<span class="title">List</span>
 				</a>
 			</li>
 			<li>

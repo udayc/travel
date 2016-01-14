@@ -16,7 +16,9 @@ class Message extends Model  {
 	protected $table = 'messages'; 
 	
 	
-	
+	public function details(){
+		return $this->belongsTo('\App\Models\Message', 'message_id');
+	}
 	
 	
 	

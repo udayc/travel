@@ -14,6 +14,8 @@
 	Route::group(['namespace'=> 'Admin' , 'middleware' => 'auth'] , function(){	
 		Route::controller('/admin/dashboard'	, 'DashboardController' 	); 	
 		Route::controller('/admin/agent'		, 'AgentController' 	);
+		Route::controller('/admin/message'		, 'MessageController' 	);
+		Route::controller('/admin/destination'		, 'DestinationController' 	);
 	});
 	Route::controller('home', 			'HomeController'		);
 	Route::controller('agent', 			'AgentController'		);

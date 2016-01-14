@@ -13,7 +13,7 @@
 					<li>
 						<i class="clip-home-3"></i>
 						<a href="#">
-							Home
+							User
 						</a>
 					</li>
 					<li class="active">
